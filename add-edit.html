@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/add-edit.css">
   </head>
+  <script type="module" src="scripts/add-edit.js"></script>
   <body>
     <header>
       <p>BOOK APP</p>
@@ -30,21 +31,27 @@
                 <h2>Add Book Form</h2>
                 <form id="add-form">
                     <label for="title">Title</label>
-                    <input type="text" id="title" placeholder="Book Title">
+                    <input type="text" id="add-title" placeholder="Book Title">
+                    <p class="error" id="add-title-error" role="status"></p>
 
                     <label for="author">Author</label>
-                    <input type="text" id="author" placeholder="Author">
+                    <input type="text" id="add-author" placeholder="Author">
+                    <p class="error" id="add-author-error" role="status"></p>
 
                     <label for="pages">Pages</label>
-                    <input type="number" id="pages" placeholder="100">
+                    <input type="number" id="add-pages" placeholder="100">
+                    <p class="error" id="add-pages-error" role="status"></p>
 
                     <label for="tag">Tag</label>
-                    <input type="text" id="tag" placeholder="sector/industry">
+                    <input type="text" id="add-tag" placeholder="sector/industry">
+                    <p class="error" id="add-tag-error" role="status"></p>
 
-                    <label for="date-added">Date Added</label>
-                    <input type="text" id="data-added" placeholder="YYYY-MM-DD">
+                    <label for="add-date">Date Added</label>
+                    <input type="text" id="add-date" placeholder="YYYY-MM-DD">
+                    <p class="error" id="add-date-error" role="status"></p>
 
                     <button type="submit" id="add-button">Add Book</button>
+                    <p class="message" id="add-message" role="status"></p>
                 </form>
             </div>
 
@@ -52,28 +59,34 @@
                 <h2>Edit / Delete Book Form</h2>
 
                 <form id="edit-form">
-                    <label for="edit-book-id">Book ID</label>
-                    <input type="text" id="edit-book-id" placeholder="bokk_001">
+                    <label for="edit-id">Book ID</label>
+                    <input type="text" id="edit-id" placeholder="bokk_001">
+                    <p class="error" id="edit-id-message" role="status"></p>
 
-                    <label for="edit-book-titel">Title</label>
-                    <input type="text" id="edit-book-title" placeholder="title">
+                    <label for="edit-title">Title</label>
+                    <input type="text" id="edit-title" placeholder="Your title"/>
+                    <p class="error" id="edit-title-error" role="status"></p>
 
-                    <label for="edit-book-author">Author</label>
-                    <input type="text" id="edit-book-author" placeholder="authoe">
+                    <label for="edit-author">Author</label>
+                    <input type="text" id="edit-author" placeholder="authoe">
+                    <p class="error" id="edit-author-error" role="status"></p>
 
-                    <label for="edit-book-pages">Pages</label>
-                    <input type="text" id="edit-book-pages" placeholder="100">
+                    <label for="edit-pages">Pages</label>
+                    <input type="text" id="edit-pages" placeholder="100">
+                    <p class="error" id="edit-pages-error" role="status"></p>
 
-                    <label for="edit-book-tag">Tag</label>
-                    <input type="text" id="edit-book-tag" placeholder="industry">
+                    <label for="edit-tag">Tag</label>
+                    <input type="text" id="edit-tag" placeholder="industry">
+                    <p class="error" id="edit-tag-error" role="status"></p>
 
-                    <label for="edit-book-date">Date Added</label>
-                    <input type="text" id="edit-book-date" placeholder="YYYY-MM-DD">
+                    <label for="edit-date">Date Added</label>
+                    <input type="text" id="edit-date" placeholder="YYYY-MM-DD">
+                    <p class="error" id="edit-date-error" role="status"></p>
 
                     <button type="submit" id="edit-button" disabled>Edit</button>
 
                     <button type="submit" id="delete-button" disabled>Delete book</button>
-                    
+                    <p class="message" id="edit-message" role="status"></p>
                 </form>
             </div>
         </div>
