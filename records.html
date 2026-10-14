@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/records.css" />
   </head>
+  <script type="module" src="scripts/records.js"></script>
   <body>
     <header>
       <p>BOOK APP</p>
@@ -31,9 +32,12 @@
           <input type="text" id="search" />
 
           <label for="case-sensitive">
-            <input type="checkbox" id="case-sensitive" />
+            <input type="checkbox" id="ignore-case" />
             Case sensitive
           </label>
+
+          <p class="error" id="search-error"></p>
+          <p id="empty-message" hidden>No books found</p>
         </section>
 
         <section class="table-content">
@@ -63,43 +67,13 @@
             </thead>
 
             <tbody id="table-body">
-              <tr>
-                <td>Do people dream in the middle of the day</td>
-                <td>Some Author</td>
-                <td>20</td>
-                <td>Education</td>
-                <td>2025-02-21</td>
-                <td>2026-02-12</td>
-                <td>book_001</td>
-              </tr>
+              
             </tbody>
           </table>
         </section>
 
         <section class="cards" id="cards">
-          <article class="book-card">
-            <p class="tag">Programming</p>
-            <h2>My book</h2>
-            <p>Me</p>
-            <p>2026-10-12</p>
-            <p class="card-line">
-              <span>Updated at: 2026-10-13</span>
-              <span>900 pages</span>
-            </p>
-            <p class="card-id">ID: book_0001</p>
-          </article>
-
-          <article class="book-card">
-            <p class="tag">Programming</p>
-            <h2>My book</h2>
-            <p>Me</p>
-            <p>2026-10-12</p>
-            <p class="card-line">
-              <span>Updated at: 2026-10-13</span>
-              <span>900 pages</span>
-            </p>
-            <p class="card-id">ID: book_0001</p>
-          </article>
+          
         </section>
       </main>
     </div>

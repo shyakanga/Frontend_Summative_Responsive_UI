@@ -10,7 +10,7 @@ This is a simple book app that stores data in localstorage and gives you a clean
 - settings: where data can be impoted or exported, along with other settings like caps
 - styles/: each file will have it's custom styling file to make debugging easier and code cleaner
 - scripts/: this will have modular functions for things like regex, validation, talking to locastorgae, so that we keep things clean and tidy
-- seed.json has the seed data on books
+- seed.js has the seed data on books
 - test.html will have simple tests for regex
 
 ## Data
