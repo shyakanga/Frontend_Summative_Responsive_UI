@@ -1,0 +1,43 @@
+.forms{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.form-cont{
+    flex: 1;
+    border: 2px solid #a9ce36;
+    padding: 12px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #494949;
+    padding: 10px;
+}
+
+button{
+    padding: 10px;
+    background-color: #a9ce36;
+    border: 2px solid #494949;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#delete-button{
+    background-color: white;
+    color: red;
+}
+
+@media (min-width:768px){
+    .forms{
+        flex-direction: row;
+    }
+}
