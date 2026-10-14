@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings Page</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/settings.css" />
+  </head>
+  <body>
+    <header>
+      <p>BOOK APP</p>
+    </header>
+
+    <div class="layout">
+      <nav>
+        <ul>
+          <li><a href="index.html">Dashboard</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="records.html">Records</a></li>
+          <li><a href="add-edit.html">Add/Edit Forms</a></li>
+          <li><a href="settings.html" aria-current="page">Settings</a></li>
+        </ul>
+      </nav>
+
+      <main class="settings">
+        <h1>Settings</h1>
+
+        <div class="settings-options">
+          <div class="option">
+            <label for="page-cap">Page cap</label>
+            <input type="number" min="1" id="pages-cap" />
+          </div>
+
+          <div class="option">
+            <label for="read-speed">Reading Speed / hour</label>
+            <input type="number" min="1" id="pages-per-hour" />
+          </div>
+
+          <div class="option">
+            <label for="export-data">Export Data</label>
+            <button type="button" id="export-data">Export data</button>
+          </div>
+
+          <div class="option">
+            <label for="import-data">Import Data</label>
+            <input type="file" id="import-data" accept=".json" />
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer>BOOK APP made by carrick</footer>
+  </body>
+</html>
