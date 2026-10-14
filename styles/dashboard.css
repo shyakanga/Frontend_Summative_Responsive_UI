@@ -1,0 +1,101 @@
+.top-stats{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 0px;
+    gap: 10px;
+}
+
+.main-stat{
+    padding: 10px;
+    border: 2px solid #289cab;
+    border-radius: 5px;
+}
+
+.side-stats{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top-pages {
+    padding: 10px;
+    border: 2px solid #289cab;
+    border-radius: 5px;
+}
+
+.top-tag {
+    padding: 10px;
+    border: 2px solid #289cab;
+    border-radius: 5px;
+}
+
+.stat-title{
+    font-weight: bold;
+}
+
+.number{
+    font-size: 1.3rem;
+}
+
+.reading-time{
+    color: #353535;
+}
+
+.chart{
+    padding: 10px;
+    border: 2px solid #289cab;
+    border-radius: 5px;
+}
+
+.page-cap{
+    padding: 10px;
+    border: 2px solid #289cab;
+    border-radius: 5px;
+}
+
+.dash-body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.chart h2, .page-cap h2{
+    text-align: center;
+}
+
+.chart-visuals{
+    display: flex;
+    /* flex: 1; */
+    gap: 4px;
+}
+
+.day{
+    flex: 1;
+    text-align: center;
+}
+
+.bar-space{
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.bar{
+    width: 100%;
+    background-color: #289cab;
+}
+
+@media (min-width: 768px){
+    .top-stats{
+        flex-direction: row;
+    }
+
+    .main-stat{
+        flex:1.5;
+    }
+
+    .side-stats{
+        flex:1;
+    }
+}
