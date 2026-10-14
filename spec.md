@@ -5,7 +5,7 @@ This is a simple book app that stores data in localstorage and gives you a clean
 
 - index.html is the root of the app, it has the dashboard
 - the navbar gets it's style from the index.css style and is used by every page
-- data.html is a html page with a table of all the books arranges neatly
+- records.html is a html page with a table of all the books arranges neatly
 - add-edit.html: this has two forms for adding and editing or deleting books
 - settings: where data can be impoted or exported, along with other settings like caps
 - styles/: each file will have it's custom styling file to make debugging easier and code cleaner

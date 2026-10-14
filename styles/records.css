@@ -1,0 +1,64 @@
+main{
+    padding: 24px;
+}
+
+th button{
+    border: none;
+    background: none;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0;
+}
+
+th, td{
+    padding: 10px 16px;
+    text-align: left;
+    border-bottom: 1px solid #289CAB;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 12px 0px;
+}
+
+.cards article{
+    padding: 12px;
+    border: 2px solid #289CAB;
+    border-radius: 10px;
+}
+
+.cards article .tag{
+    background-color: #A9CE36;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.card-line{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-content{
+    margin-top: 20px;
+    display: none;
+}
+
+@media (min-width: 768px){
+    .cards{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1024px){
+    .table-content{
+        display: block;
+    }
+
+    .cards{
+        display: none;
+    }
+}

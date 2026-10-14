@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Records Page</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/records.css" />
+  </head>
+  <body>
+    <header>
+      <p>BOOK APP</p>
+    </header>
+
+    <div class="layout">
+      <nav>
+        <ul>
+          <li><a href="index.html">Dashboard</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="records.html" aria-current="page">Records</a></li>
+          <li><a href="add-edit.html">Add/Edit Forms</a></li>
+          <li><a href="settings.html">Settings</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <h1>Records</h1>
+
+        <section class="search">
+          <label for="search">Search</label>
+          <input type="text" id="search" />
+
+          <label for="case-sensitive">
+            <input type="checkbox" id="case-sensitive" />
+            Case sensitive
+          </label>
+        </section>
+
+        <section class="table-content">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">
+                  <button type="button" id="sort-title">Title</button>
+                </th>
+
+                <th scope="col">Author</th>
+
+                <th scope="col">
+                  <button type="button" id="sort-pages">Pages</button>
+                </th>
+
+                <th scope="col">Tag</th>
+
+                <th scope="col">
+                  <button type="button" id="sort-date">Created</button>
+                </th>
+
+                <th scope="col">Updated</th>
+
+                <th scope="col">ID</th>
+              </tr>
+            </thead>
+
+            <tbody id="table-body">
+              <tr>
+                <td>Do people dream in the middle of the day</td>
+                <td>Some Author</td>
+                <td>20</td>
+                <td>Education</td>
+                <td>2025-02-21</td>
+                <td>2026-02-12</td>
+                <td>book_001</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="cards" id="cards">
+          <article class="book-card">
+            <p class="tag">Programming</p>
+            <h2>My book</h2>
+            <p>Me</p>
+            <p>2026-10-12</p>
+            <p class="card-line">
+              <span>Updated at: 2026-10-13</span>
+              <span>900 pages</span>
+            </p>
+            <p class="card-id">ID: book_0001</p>
+          </article>
+
+          <article class="book-card">
+            <p class="tag">Programming</p>
+            <h2>My book</h2>
+            <p>Me</p>
+            <p>2026-10-12</p>
+            <p class="card-line">
+              <span>Updated at: 2026-10-13</span>
+              <span>900 pages</span>
+            </p>
+            <p class="card-id">ID: book_0001</p>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <footer>BOOK APP made by carrick</footer>
+  </body>
+</html>
