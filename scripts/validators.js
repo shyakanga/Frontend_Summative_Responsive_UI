@@ -17,7 +17,7 @@ export function titleRegexValidation(text){
 }
 
 export function authorValidationRegex(text){
-    if (!trailingSpace.text(text)){
+    if (!trailingSpace.test(text)){
         return "Author cannot be empty, start, or end with a space"
     }
     return "";
