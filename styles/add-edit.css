@@ -14,6 +14,10 @@ form{
     gap: 8px;
 }
 
+.error{
+    color: red;
+}
+
 input{
     outline: none;
     border: none;

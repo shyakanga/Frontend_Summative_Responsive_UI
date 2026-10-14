@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tests Paeg</title>
+  </head>
+  <body>
+    <main>
+        <h1>Tests</h1>
+        <ul id="results"></ul>
+    </main>
+    <script type="module">
+        import{
+            titleRegexValidation,
+            validatePagesRegex,
+            authorValidationRegex,
+            tagRegex,
+            checkDate
+        } from "./scripts/validators.js"
+
+        const result = document.getElementById("results");
+
+        function runTests(description, status){
+            const resultItem = document.createElement("li");
+
+            if(status){
+                resultItem.textContent = "PASS: "+ description;
+            }else{
+                resultItem.textContent = "FAIL: " + description;
+            }
+            result.appendChild(resultItem);
+        }
+
+        runTests("title Clean code is accepted", titleRegexValidation("Clean Code") === "");
+        runTests("title with a space at the start is rejected", titleRegexValidation(" Dune") !== "");
+        runTests("title with a space at the end is rejected", titleRegexValidation("Dune ") !== "");
+        runTests("empty title is rejected", titleRegexValidation("") !== "");
+        runTests("title with a repeated word is rejected", titleRegexValidation("the the book") !== "");
+        runTests("author Robert Martin is accepted", authorValidationRegex("Robert Martin") === "");
+        runTests("pages 0 is rejected", validatePagesRegex("0") !== "");
+        runTests("tag starting with a hyphen is rejected", tagRegex("-Finance") !== "");
+        runTests("month 13 is rejected", checkDate("2026-13-01") !== "");
+        runTests("date 2026-10-13 is accepted", checkDate("2026-10-13") === "")
+    </script>
+  </body>
+</html>
