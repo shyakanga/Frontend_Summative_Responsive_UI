@@ -6,6 +6,7 @@
     <title>Book App</title>
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/dashboard.css" />
+    <script type="module" src="scripts/dashboard.js"></script>
   </head>
   <body>
     <header>
@@ -28,20 +29,20 @@
 
           <div class="top-stats">
             <div class="main-stat">
-              <p class="stat-title">Main Stat</p>
-              <p class="number">100</p>
+              <p class="stat-title">Total books</p>
+              <p class="number" id="total-books">100</p>
             </div>
 
             <div class="side-stats">
               <div class="top-pages">
                 <p class="stat-title">Top Pages</p>
-                <p class="number">0</p>
-                <p class="reading-time">Time spent reading</p>
+                <p class="number" id="total-pages">0</p>
+                <p class="reading-time" id="reading-time">Time spent reading</p>
               </div>
 
               <div class="top-tag">
                 <p class="stat-title">Top Tag</p>
-                <p class="number">The top tag</p>
+                <p class="number" id="top-tag">The top tag</p>
               </div>
             </div>
           </div>
@@ -49,7 +50,7 @@
           <div class="dash-body">
             <div class="chart">
               <h2>Chart</h2>
-              <div class="chart-visuals">
+              <div class="chart-visuals" id="bars">
                 <div class="day">
                   <div class="bar-space">
                     <div class="bar" style="height: 80%">
@@ -117,7 +118,7 @@
 
             <div class="page-cap">
               <h2>Page Cap</h2>
-              <p>You have not hit the page cap yet. 0/0</p>
+              <p id="cap-message">You have not hit the page cap yet. 0/0</p>
             </div>
           </div>
         </div>
