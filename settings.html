@@ -6,6 +6,7 @@
     <title>Settings Page</title>
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/settings.css" />
+    <script type="module" src="./scripts/settings.js"></script>
   </head>
   <body>
     <header>
@@ -29,22 +30,39 @@
         <div class="settings-options">
           <div class="option">
             <label for="page-cap">Page cap</label>
-            <input type="number" min="1" id="pages-cap" />
-          </div>
+            <span>
+              <input type="number" min="1" id="pages-cap" />
+              <p id="pagesCap-message" role="status"></p>
+            </span>
+            </div>
 
           <div class="option">
-            <label for="read-speed">Reading Speed / hour</label>
-            <input type="number" min="1" id="pages-per-hour" />
+            <label for="pages-per-hour">Reading Speed <br>/ hour</label>
+            <span>
+              <input type="number" min="1" id="pages-per-hour" />
+              <p id="pPh-message" role="status"></p>
+            </span>
+          </div>
+
+          <div class="saveBtn">
+            <p id="message" role="status"></p>
+            <button id="save">save</button>
           </div>
 
           <div class="option">
             <label for="export-data">Export Data</label>
-            <button type="button" id="export-data">Export data</button>
+            <span>
+              <button type="button" id="export-data">Export data</button>
+              <p id="export-message" role="status"></p>
+            </span>
           </div>
 
           <div class="option">
             <label for="import-data">Import Data</label>
-            <input type="file" id="import-data" accept=".json" />
+            <span>
+              <input type="file" id="import-data" accept=".json" />
+              <p id="import-message" role="status"></p>
+            </span>
           </div>
         </div>
       </main>

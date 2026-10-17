@@ -1,5 +1,6 @@
 .settings{
     padding: 24px;
+    flex: 1;
 }
 
 .settings-options{
@@ -19,7 +20,7 @@
 
 input[type="number"]{
     padding: 10px;
-    width: 100px;
+    width: 40px;
 }
 
 button{
@@ -31,4 +32,10 @@ button{
 
 button:hover{
     cursor: pointer;
+}
+
+.saveBtn{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 12px;
 }

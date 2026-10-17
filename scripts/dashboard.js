@@ -94,7 +94,7 @@ document.getElementById("reading-time").textContent = readingHours + "h " + minu
 if (mostUsedCount == 0){
     document.getElementById("top-tag").textContent = "None";
 } else {
-    document.getElementById("top-tag").textContent = topTag + " ( " + mostUsedCount + " ) "; 
+    document.getElementById("top-tag").textContent = topTag + " (" + mostUsedCount + ") "; 
 };
 
 const capMessage = document.getElementById("cap-message");
