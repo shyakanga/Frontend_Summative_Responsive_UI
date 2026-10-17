@@ -1,4 +1,4 @@
-import {books} from "./seed.js"
+import {books} from "./state.js"
 import {makeRegex, matchesRegex, highlightMatches} from "./search.js"
 
 const searchingBox = document.getElementById("search");

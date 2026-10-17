@@ -1,6 +1,4 @@
-import { books } from "./seed.js"
-import { settings } from "./state.js"
-
+import { settings, books } from "./state.js"
 
 function formatDate(date){
     const year = date.getFullYear();
@@ -91,7 +89,7 @@ for (let dayIndex = 0; dayIndex < 7; dayIndex++){
 document.getElementById("bars").innerHTML = barsHtml;
 document.getElementById("total-books").textContent = books.length;
 document.getElementById("total-pages").textContent = totalPages;
-document.getElementById("reading-time").textContent = readingHours + "h" + minutes + "m reading time";
+document.getElementById("reading-time").textContent = readingHours + "h " + minutes + "m reading time";
 
 if (mostUsedCount == 0){
     document.getElementById("top-tag").textContent = "None";
@@ -107,5 +105,5 @@ if(totalPages > settings.pageCap){
     capMessage.textContent = totalPages + " of " + settings.pageCap + " pages used " + (totalPages - settings.pageCap) + " pages over the cap ";
 } else{
     capMessage.setAttribute("aria-live", "polite");
-    capMessage.textContent = totalPages + "of" + settings.pageCap + " pages used " + (settings.pageCap - totalPages) + " pages left ";
+    capMessage.textContent = totalPages + " of " + settings.pageCap + " pages used " + (settings.pageCap - totalPages) + " pages left ";
 }
