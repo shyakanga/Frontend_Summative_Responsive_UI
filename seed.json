@@ -1,0 +1,272 @@
+[
+  {
+    "id": "book_001",
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "pages": 412,
+    "tag": "SciFi",
+    "createdAt": "2026-10-12",
+    "updatedAt": "2026-10-13"
+  },
+  {
+    "id": "book_002",
+    "title": "The Odyssey",
+    "author": "Homer",
+    "pages": 384,
+    "tag": "Epic",
+    "createdAt": "2026-10-12",
+    "updatedAt": "2026-10-14"
+  },
+  {
+    "id": "book_003",
+    "title": "Story of Your Life",
+    "author": "Ted Chiang",
+    "pages": 352,
+    "tag": "SciFi",
+    "createdAt": "2026-10-13",
+    "updatedAt": "2026-10-13"
+  },
+  {
+    "id": "book_004",
+    "title": "Do Androids Dream of Electric Sheep?",
+    "author": "Philip K. Dick",
+    "pages": 210,
+    "tag": "SciFi",
+    "createdAt": "2026-10-13",
+    "updatedAt": "2026-10-15"
+  },
+  {
+    "id": "book_005",
+    "title": "American Prometheus",
+    "author": "Kai Bird",
+    "pages": 721,
+    "tag": "Biography",
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-14"
+  },
+  {
+    "id": "book_006",
+    "title": "The Prestige",
+    "author": "Christopher Priest",
+    "pages": 400,
+    "tag": "Thriller",
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-16"
+  },
+  {
+    "id": "book_007",
+    "title": "The Double",
+    "author": "José Saramago",
+    "pages": 324,
+    "tag": "Thriller",
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-15"
+  },
+  {
+    "id": "book_008",
+    "title": "A Study in Scarlet",
+    "author": "Arthur Conan Doyle",
+    "pages": 188,
+    "tag": "Mystery",
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "book_009",
+    "title": "Le Morte d'Arthur",
+    "author": "Thomas Malory",
+    "pages": 940,
+    "tag": "Fantasy",
+    "createdAt": "2026-10-16",
+    "updatedAt": "2026-10-16"
+  },
+  {
+    "id": "book_010",
+    "title": "Wiseguy",
+    "author": "Nicholas Pileggi",
+    "pages": 256,
+    "tag": "Crime",
+    "createdAt": "2026-10-16",
+    "updatedAt": "2026-10-18"
+  },
+  {
+    "id": "book_011",
+    "title": "2001: A Space Odyssey",
+    "author": "Arthur C. Clarke",
+    "pages": 297,
+    "tag": "SciFi",
+    "createdAt": "2026-10-12",
+    "updatedAt": "2026-10-15"
+  },
+  {
+    "id": "book_012",
+    "title": "Annihilation",
+    "author": "Jeff VanderMeer",
+    "pages": 195,
+    "tag": "SciFi",
+    "createdAt": "2026-10-12",
+    "updatedAt": "2026-10-13"
+  },
+  {
+    "id": "book_013",
+    "title": "The Martian",
+    "author": "Andy Weir",
+    "pages": 369,
+    "tag": "SciFi",
+    "createdAt": "2026-10-13",
+    "updatedAt": "2026-10-14"
+  },
+  {
+    "id": "book_014",
+    "title": "Jurassic Park",
+    "author": "Michael Crichton",
+    "pages": 399,
+    "tag": "SciFi",
+    "createdAt": "2026-10-13",
+    "updatedAt": "2026-10-16"
+  },
+  {
+    "id": "book_015",
+    "title": "The Godfather",
+    "author": "Mario Puzo",
+    "pages": 448,
+    "tag": "Crime",
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-15"
+  },
+  {
+    "id": "book_016",
+    "title": "Fight Club",
+    "author": "Chuck Palahniuk",
+    "pages": 208,
+    "tag": "Thriller",
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "book_017",
+    "title": "Shutter Island",
+    "author": "Dennis Lehane",
+    "pages": 369,
+    "tag": "Mystery",
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-16"
+  },
+  {
+    "id": "book_018",
+    "title": "No Country for Old Men",
+    "author": "Cormac McCarthy",
+    "pages": 309,
+    "tag": "Thriller",
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-18"
+  },
+  {
+    "id": "book_019",
+    "title": "The Silence of the Lambs",
+    "author": "Thomas Harris",
+    "pages": 338,
+    "tag": "Thriller",
+    "createdAt": "2026-10-16",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "book_020",
+    "title": "The Children of Men",
+    "author": "P.D. James",
+    "pages": 241,
+    "tag": "Dystopian",
+    "createdAt": "2026-10-16",
+    "updatedAt": "2026-10-16"
+  },
+  {
+    "id": "book_021",
+    "title": "All You Need Is Kill",
+    "author": "Hiroshi Sakurazaka",
+    "pages": 300,
+    "tag": "SciFi",
+    "createdAt": "2026-10-17",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "book_022",
+    "title": "Drive",
+    "author": "James Sallis",
+    "pages": 158,
+    "tag": "Crime",
+    "createdAt": "2026-10-17",
+    "updatedAt": "2026-10-18"
+  },
+  {
+    "id": "book_023",
+    "title": "L.A. Confidential",
+    "author": "James Ellroy",
+    "pages": 496,
+    "tag": "Crime",
+    "createdAt": "2026-10-12",
+    "updatedAt": "2026-10-12"
+  },
+  {
+    "id": "book_024",
+    "title": "The Bourne Identity",
+    "author": "Robert Ludlum",
+    "pages": 523,
+    "tag": "Thriller",
+    "createdAt": "2026-10-13",
+    "updatedAt": "2026-10-15"
+  },
+  {
+    "id": "book_025",
+    "title": "Road to Perdition",
+    "author": "Max Allan Collins",
+    "pages": 304,
+    "tag": "Crime",
+    "createdAt": "2026-10-14",
+    "updatedAt": "2026-10-14"
+  },
+  {
+    "id": "book_026",
+    "title": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "pages": 116,
+    "tag": "Epic",
+    "createdAt": "2026-10-15",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "book_027",
+    "title": "I Am Legend",
+    "author": "Richard Matheson",
+    "pages": 160,
+    "tag": "SciFi",
+    "createdAt": "2026-10-16",
+    "updatedAt": "2026-10-18"
+  },
+  {
+    "id": "book_028",
+    "title": "Minority Report",
+    "author": "Philip K. Dick",
+    "pages": 102,
+    "tag": "SciFi",
+    "createdAt": "2026-10-17",
+    "updatedAt": "2026-10-17"
+  },
+  {
+    "id": "book_029",
+    "title": "True Grit",
+    "author": "Charles Portis",
+    "pages": 224,
+    "tag": "Western",
+    "createdAt": "2026-10-12",
+    "updatedAt": "2026-10-16"
+  },
+  {
+    "id": "book_030",
+    "title": "The Iliad",
+    "author": "Homer",
+    "pages": 683,
+    "tag": "Epic",
+    "createdAt": "2026-10-18",
+    "updatedAt": "2026-10-18"
+  }
+]
