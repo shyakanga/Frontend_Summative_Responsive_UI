@@ -33,6 +33,8 @@ button{
 
 button:hover{
     cursor: pointer;
+    background-color: #494949;
+    color: white;
 }
 
 #delete-button{
