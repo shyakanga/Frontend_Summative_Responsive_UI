@@ -6,6 +6,7 @@
 
 # Project Overview
 
+- Theme: A personal book management app that helps you keep track of your catlog.
 - This is a books app built with vanilla html,js, and css to help you interact with your books
 - Video Walkthrough: https://www.loom.com/share/2c79161f138a4efd864b43c05cb370b2
 - Live site: https://shyakanga.github.io/Frontend_Summative_Responsive_UI/index.html
